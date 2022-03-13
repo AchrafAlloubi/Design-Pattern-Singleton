@@ -8,10 +8,10 @@ public class Main {
             Scanner sc = new Scanner(System.in);
             System.out.println("\n///////////////  Choisissez la tribut /////////////// "
             					+ "\n"
-            			    	+ "\n*****************  1- Pieds Noirs ***************** "
+            			    	+ "\n*****************  1- Pieds Noirs       ***************** "
             			    	+ "\n*****************  2- Danseurs masqués  *****************" 
-            			    	+ "\n*****************  3- Tribut 3   *****************" 
-            					+ "\n*****************  4- Tribut 4   *****************" );
+            			    	+ "\n*****************  3- Resistenza        *****************" 
+            					+ "\n*****************  4- Tribut 4          *****************" );
             
             int choix = sc.nextInt();
         	switch(choix) 
@@ -34,6 +34,12 @@ public class Main {
 
         		 case 3: 
         			 
+         			Resistenza rz = new Resistenza("Resistenza");
+         			rz.communiquerAvecEspritDeLaResistance().echangerMiracleEtPunition();
+         			rz.communiquerAvecEspritDeLaResistance().ecouterEtRepondre("J'ai besoin de votre éclaircissement.");
+         			rz.communiquerAvecEspritDeLaResistance().ecouterEtPunir("j'ai commis une erreur");
+         			rz.communiquerAvecEspritDeLaResistance().ecouterEtRealiserMiracle("J'ai besoin de votre pouvoir.");
+                    rz.communiquerAvecEspritDeLaResistance().realiserMiracle("J'ai besoin de votre pouvoir.");
 		           break;
 		           
         		 case 4: 

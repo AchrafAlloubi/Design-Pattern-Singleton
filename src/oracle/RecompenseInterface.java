@@ -1,6 +1,6 @@
 package oracle;
 
 public interface RecompenseInterface {
-    void PunitionSansRaison(String god, String croyant);
-    void echangerMiracleEtPunition(String god, String croyant);
+    void PunitionSansRaison(String oracle, String croyant);
+    void echangerMiracleEtPunition(String oracle, String croyant);
 }

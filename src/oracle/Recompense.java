@@ -12,8 +12,8 @@ class Recompense implements RecompenseInterface{
     }
 
     public void echangerMiracleEtPunition(String oracle, String croyant) {
-        System.out.println(oracle + " a été demandé d'offrir un miracle et une punition par le " + croyant);
-        System.out.println(oracle + " échange un miracle contre une punition avec le " + croyant);
+        System.out.println(oracle + " a été demandé d'offrir un miracle et une punition par " + croyant);
+        System.out.println(oracle + " échange un miracle contre une punition avec " + croyant);
         Oracle.getInstance().getMiracleInterface().realiserMiracle(oracle, croyant);
     }
 }

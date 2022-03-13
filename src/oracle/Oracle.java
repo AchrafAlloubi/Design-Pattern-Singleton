@@ -39,7 +39,7 @@ public final class Oracle {
         return miracle;
     }
 
-    public RecompenseInterface getRetributionInterface() {
+    public RecompenseInterface getRecompenseInterface() {
         return recompense;
     }
 }
